@@ -1,0 +1,6 @@
+---
+- name: Get OpenStack-Ansible
+  git:
+    repo=https://github.com/openstack/openstack-ansible.git
+    dest=/opt/openstack-ansible
+    version="{{osa_version}}"

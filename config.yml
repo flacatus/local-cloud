@@ -1,0 +1,3 @@
+proxy_url: ""
+osa_version: 19.0.0
+ansible_verbosity: "-v"
